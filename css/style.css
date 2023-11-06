@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 94%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+header{
+    background-color:rgb(99, 180, 225) ;
+}
+.bg-morado{
+    background-color: rgb(101, 43, 119);
+}
+.bg-white{
+    background-color:white;
+}
+.text-white{
+    color: white;
+}
+.text-morado{
+    color:  rgb(101, 43, 119);
+}
+nav ul, nav li{
+    padding: 0;
+    margin: 0;
+
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    float: left;
+    position: relative;
+    list-style-type: none;
+    padding-bottom: 8px;
+    color: white;
+} 
+li{
+    list-style: none;
+    color: #642c74;
+    font-weight: bold;
+}
+li ul li{
+   
+    font-weight: bold;
+    position: relative;
+    list-style-type: none;
+    padding-bottom: 8px;
+    color: white;
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #e5e5e5;
+    width: 200px;
+    z-index: 1; /*Para el posicionamiento*/
+}
+nav ul li ul li{
+    width: 200px;
+    color: black;
+}
+nav ul li:hover{
+    color: black;
+}
+nav ul li ul li:hover{
+    color: rgb(99, 180, 225);
+}
+nav li:hover ul{
+    display: block;
+    margin-top: 16px;
+}
+.px-12{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.mr-4{
+    margin-right: 4px;
+}
+a{
+    text-decoration: none;
+}
+#careto{
+    background-image: url(../img/familia-pueblo-internet-eurona.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    
+}
+.bg-azul{
+    background-color:rgb(99, 180, 225) ;
+}
+.btn{
+    border: none;
+    
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+
+}
+.btn-pink{
+    border-radius: 6px;
+    background-color: #eb3588;
+}
+.btn-verde{
+    
+    background-color: #c0d86a;
+    font-size: 10px;
+}
+.bg-grisc{
+    padding-top: 2px;
+    background-color: #f1f8fe;
+}
+.caja{
+    border-radius: 10px;
+    text-align: center;
+    padding: 14px;
+}
+input[typo="tel"]{
+    border: none;
+    padding: 8px 16px;
+    width: 100%;
+}
+input[typo="tel"]::placeholder{
+    font-size: 16px;
+}
+.caja h1, caja h2{
+    margin: 0;
+}
+.text-left{
+    text-align: left;
+}
+.h-100{
+    height: 100%;
+}
+.d-inline{
+    display: inline;
+}
+#careto img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-100px);
+}
+.pt-0{
+    padding-top: 0 auto;
+}
+
+.txt-center{
+    text-align: center;
+    
+}
+.ml-90{
+    margin-left: 90px;
+}
+
+.pb15{
+    padding-bottom: 15px;
+}
+.col-4 {
+    margin-top: 20px;
+    width: 25%;
+    margin-bottom: 20px;
+    
+}
+.card {
+    border-radius: 16px;
+    box-shadow: 0 0 20px gainsboro;
+    text-align: center;
+    position: relative;
+    border-color: gray;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 20px;
+}
+.rosa{
+    color:  #eb3588;
+}
+.naranja{
+    color: #e45e28;
+}
+.azul{
+    color: #63b5dd;
+}
+.purple{
+    color: #642c74;
+}
+.w20{
+    font-size: 30px;
+}
+.tal{
+    text-align: left;
+}
+.mr-50{
+    margin-right: 50px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
